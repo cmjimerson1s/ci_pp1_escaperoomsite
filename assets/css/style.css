@@ -77,7 +77,12 @@ h1, h2, ul {
 }
 
 #tagline h2 {
-    font-size: 110%;
+    font-size: 330%;
     letter-spacing: 3px;
+    text-align: center;
+}
+
+#tagline h3 {
+    font-size: 200%;
     text-align: center;
 }
