@@ -86,3 +86,12 @@ h1, h2, ul {
     font-size: 200%;
     text-align: center;
 }
+
+#what_is {
+    height: 480px;
+}
+
+.sect_container {
+    height: 80px;
+    background-color: aqua;
+}
