@@ -9,3 +9,8 @@
 body {
     font-family:  'Raleway', sans-serif;
 }
+
+#heading {
+    width: 100%;
+    background-color: brown;
+}
