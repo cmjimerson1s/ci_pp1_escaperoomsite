@@ -10,17 +10,25 @@ body {
     font-family:  'Raleway', sans-serif;
 }
 
+h1, h2, ul {
+    font-family: 'Staatliches', cursive;
+    color: aliceblue;
+}
+
 #heading {
     width: 100%;
-    height: 150px;
+    height: 80px;
     background-color: brown;
 }
 
+#logo, #links {
+    line-height: 75px;
+}
+
 #logo {
-    font-family: 'Staatliches', cursive;
     letter-spacing: 3px;
-    font-size: 250%;
-    margin-left: 25pxs;
+    font-size: 300%;
+    margin-left: 25px;
     float: left;
 }
 
@@ -33,4 +41,16 @@ body {
 #links li {
     display: inline;
     margin: 5px;
+    font-size: 110%;
+    letter-spacing: 3px;
+    padding-right: 10px;
+}
+
+#links a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#main_image {
+    height: 450px;
 }
