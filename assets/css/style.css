@@ -51,9 +51,33 @@ h1, h2, ul {
     color: aliceblue;
 }
 
+#main_container {
+    height: 480px;
+    width: 100%;
+    position: relative;
+}
+
 #main_image {
-    height: 450px;
+    height: 480px;
+    width: 100%;
     background: url('../images/lucas-santos-r-UaSYUqF9o-unsplash.jpg');
     background-size: cover;
     background-position: center;
+}
+
+#tagline {
+    width: 50%;
+    height: 240px;
+    background-color: rgba(82, 80, 60, .7);
+    /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    position: absolute;
+    color: aliceblue;
+    top: 25%;
+    left: 25%;
+}
+
+#tagline h2 {
+    font-size: 110%;
+    letter-spacing: 3px;
+    text-align: center;
 }
