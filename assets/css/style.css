@@ -53,4 +53,7 @@ h1, h2, ul {
 
 #main_image {
     height: 450px;
+    background: url('../images/lucas-santos-r-UaSYUqF9o-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
 }
