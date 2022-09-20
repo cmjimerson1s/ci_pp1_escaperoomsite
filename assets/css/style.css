@@ -116,15 +116,27 @@ p {
     line-height: 50px;
 }
 
+#ceo {
+    display: flex;
+}
+
+
+
+
 footer {
     width: 100%;
     height: 80px;
     background-color: brown;
+    display: flex;
+    justify-content: center;
 }
 
 #social_media_links {
     border: 1px solid black;
-
+    width: 50%;
     display: flex;
-    
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+ 
 }
