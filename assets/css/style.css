@@ -132,11 +132,9 @@ footer {
 }
 
 #social_media_links {
-    border: 1px solid black;
     width: 50%;
     display: flex;
     gap: 1rem;
     justify-content: space-around;
     align-items: center;
- 
 }
