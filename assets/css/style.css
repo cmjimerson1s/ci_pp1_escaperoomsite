@@ -138,3 +138,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
+#social_media_links a {
+    text-decoration: none;
+}
