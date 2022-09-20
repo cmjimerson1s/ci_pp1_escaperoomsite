@@ -59,13 +59,14 @@ h1, h2, ul {
     display: flex;
 }
 
-#main_image {
+/* #main_image {
     height: 480px;
     width: 100%;
     background: url('../images/lucas-santos-r-UaSYUqF9o-unsplash.jpg');
     background-size: cover;
     background-position: center;
-}
+    /* display: flex; */
+
 
 #tagline {
     width: 50%;
@@ -77,6 +78,7 @@ h1, h2, ul {
     display: flex;
     /* top: 25%; */
     /* left: 25%; */
+    align-items: center;
 }
 
 #tagline h2 {
