@@ -142,7 +142,17 @@ p {
 #ceo {
     min-width: 80%;
     border: 1px solid red;
-    
+}
+
+.img_container {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-image: url(../images/pexels-emmy-e-2381069.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
 }
 
 
