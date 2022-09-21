@@ -130,8 +130,18 @@ p {
     line-height: 50px;
 }
 
-#ceo {
+/* staff page */
+
+#ceo_container {
     display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    min-height: 300px;
+}
+
+#ceo {
+    min-width: 80%;
+    border: 1px solid red;
 }
 
 
