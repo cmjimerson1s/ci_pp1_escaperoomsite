@@ -32,7 +32,7 @@ h1, h2, ul {
 
 #logo_box {
     width: 40%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 #logo {
@@ -43,7 +43,7 @@ h1, h2, ul {
 
 #link_box {
     width: 55%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-around;
 }
