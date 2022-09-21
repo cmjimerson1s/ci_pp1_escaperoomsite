@@ -155,6 +155,29 @@ p {
     justify-content: center;
 }
 
+#cmo {
+    min-width: 80%;
+    border: 1px solid red;
+}
+
+#cmo_container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    min-height: 300px;
+}
+
+#cmo_img_container {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-image: url(../images/pexels-ali-madad-sakhirani-997512.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+}
+
 
 
 
