@@ -173,13 +173,13 @@ h1, h2, ul {
     margin-left: 25px;
 }
 
-p {
-    font-size: 3vw;
+/* p {
+    font-size: 22px;
     margin-top: 25px;
     margin-left: 25px;
     margin-right: 25px;
     line-height: 50px;
-}
+} */
 
 /* staff page */
 
@@ -187,12 +187,15 @@ p {
     display: flex;
     justify-content: center;
     border: 1px solid black;
-    min-height: 300px;
+    max-height: 300px;
 }
 
 #ceo {
-    min-width: 80%;
+    max-width: 80%;
     border: 1px solid red;
+}
+
+#ceo p {
 }
 
 #ceo_img_container {
@@ -250,6 +253,28 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
+}
+
+#formy {
+    display: flexbox;
+}
+
+.form_container {
+    background-color: rgba(82, 80, 60, .7);
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter ul {
+    list-style: none;
+}
+
+#newsletter li {
+    padding: 2px;
 }
 
 /* footer section */
