@@ -56,44 +56,56 @@ h1, h2, ul {
     height: 480px;
     width: 100%;
     /* position: relative; */
-    display: flex;
+    /* display: flex; */
 }
 
-/* #main_image {
+#main_image {
     height: 480px;
     width: 100%;
     background: url('../images/lucas-santos-r-UaSYUqF9o-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    /* display: flex; */
+}    
 
+.hero_container {
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+/* .hero_box {
+    justify-content: center;
+    align-items: center;
+} */
+   
 
 #tagline {
     width: 50%;
-    height: 240px;
+    min-height: 240px;
     background-color: rgba(82, 80, 60, .7);
     /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)); */
     /* position: absolute; */
     color: aliceblue;
-    display: flex;
+    /* display: flex; */
     /* top: 25%; */
     /* left: 25%; */
-    align-items: center;
+    /* align-items: center; */
 }
 
 #tagline h2 {
-    font-size: 330%;
+    font-size: 2.75rem;
     letter-spacing: 3px;
     text-align: center;
 }
 
 #tagline h3 {
-    font-size: 200%;
+    font-size: 1.75rem;
     text-align: center;
 }
 
 #what_is {
-    height: 100vh;
+    min-height: 480px;
     overflow: hidden;
 }
 
