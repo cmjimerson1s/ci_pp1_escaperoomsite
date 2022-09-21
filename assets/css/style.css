@@ -16,17 +16,64 @@ h1, h2, ul {
     color: aliceblue;
 }
 
+/* #heading {
+    width: 100%;
+    min-height: 80px;
+    background-color: brown;
+} */
+
 #heading {
     width: 100%;
-    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: brown;
 }
 
-#logo, #links {
-    line-height: 75px;
+#logo_box {
+    width: 40%;
+    border: 1px solid blue;
 }
 
 #logo {
+    font-size: 200%;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+#link_box {
+    width: 55%;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-around;
+}
+
+#links {
+    list-style: none;
+}
+
+
+@media screen and (min-width: 900px) {
+    #links li {
+    display: inline;
+    padding: 5px;
+    font-size: 150%;
+    }
+
+    #heading {
+        height: 100px;
+    }
+
+    #logo {
+        font-size: 250%;
+    }
+}
+
+/* #logo, #links {
+    line-height: 75px;
+} */
+
+/* #logo {
     letter-spacing: 3px;
     font-size: 300%;
     margin-left: 25px;
@@ -50,7 +97,11 @@ h1, h2, ul {
 #links a {
     text-decoration: none;
     color: aliceblue;
-}
+} */
+#links a {
+    text-decoration: none;
+    color: aliceblue;
+} 
 
 #main_container {
     height: 480px;
@@ -178,9 +229,30 @@ p {
     justify-content: center;
 }
 
+#cto {
+    min-width: 80%;
+    border: 1px solid red;
+}
 
+#cto_container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    min-height: 300px;
+}
 
+#cto_img_container {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-image: url(../images/pexels-andrea-piacquadio-3779760.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+}
 
+/* footer section */
 footer {
     width: 100%;
     height: 80px;
